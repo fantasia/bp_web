@@ -1,0 +1,106 @@
+div {
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#contents {
+    background: #e3e3e3;
+}
+
+#read {
+    float: right;
+    color: white;
+    margin-right: 10px;
+}
+
+#startdate {
+    font-size: 10pt;
+    margin-left : 10px;
+    cursor: pointer;
+    width : 30%;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20pt;
+    color: white;
+    position: fixed;
+    width: 100%;
+    min-height: 40px;
+    background: #123456;
+    position: fixed;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.title_margin {
+    height: 40px;
+}
+
+.listitem {
+    padding: 4px;
+    margin-bottom: 1px;
+    min-height: 40px;
+    cursor: pointer;
+    background: #0e0e0e;
+    min-height: 40px;
+    min-height: 40px;
+    color : white;
+}
+
+.listitem.complete {
+    background: #565656;
+}
+
+/*
+.listitem:HOVER {
+	background: #99FF99;
+}
+
+.listitem.complete:HOVER {
+	background: #898989;
+}
+*/
+.listitem b {
+    display: none;
+}
+
+.listitem.complete b {
+    display: block;
+    float: right;
+}
+
+.complete span {
+    color : dimgray;
+}
+.complete div {
+    color : dimgray;
+}
+.day {
+    min-width: 100px;
+    float: left;
+    font-weight: bold;
+    color : white;
+}
+
+.time {
+    min-width: 100px;
+    float: left;
+    margin-left: 20px;
+}
+
+.date {
+    min-width: 100px;
+    float: left;
+}
+
+.bible_content {
+    padding-top: 8px;
+    clear: both;
+}
